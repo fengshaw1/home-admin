@@ -1,0 +1,1570 @@
+---------------------------------------------------------------
+[ 2022-08-19T16:20:39+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/wipecache?_=1660896635592
+[ info ] localhost/public/admin.php/ajax/wipecache?_=1660896635592 [运行时间：0.051173s][吞吐率：19.54req/s] [内存消耗：2,595.50kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001571s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'wipecache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1660896635592',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000475s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->wipecache[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000499s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/index/index/index
+[ info ] localhost/public/admin.php/index/index/index [运行时间：0.151410s][吞吐率：6.60req/s] [内存消耗：4,121.16kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002113s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/public/admin.php/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000764s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001103s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `es_auth_rule` WHERE  `ismenu` = 1 ORDER BY `weigh`  desc [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=index&v=1660897239
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=index&v=1660897239 [运行时间：0.031835s][吞吐率：31.41req/s] [内存消耗：2,599.38kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001292s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/public/admin.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1660897239',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000300s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000236s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=index&v=1660897239
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=index&v=1660897239 [运行时间：0.032468s][吞吐率：30.80req/s] [内存消耗：2,598.96kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001244s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1660897239',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000312s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000221s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/dashboard?addtabs=1
+[ info ] localhost/public/admin.php/dashboard?addtabs=1 [运行时间：0.107409s][吞吐率：9.31req/s] [内存消耗：4,034.78kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001440s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/public/admin.php/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000255s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'total_building',
+  7 => 'total_house',
+  8 => 'total_member',
+  9 => 'total_lease',
+  10 => 'total_parking_space',
+  11 => 'parking_space_percent',
+  12 => 'total_vehicle',
+  13 => 'total_pet',
+  14 => 'total_repair_pending',
+  15 => 'total_repair_processing',
+  16 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000170s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义变量: totaluser[C:\Users\frank\Desktop\estate-init\estate-init\runtime\temp\d9f29ecafa8b7ae4579999459f953894.php:214]
+[ error ] [8]未定义变量: totalviews[C:\Users\frank\Desktop\estate-init\estate-init\runtime\temp\d9f29ecafa8b7ae4579999459f953894.php:223]
+[ error ] [8]未定义变量: totalorder[C:\Users\frank\Desktop\estate-init\estate-init\runtime\temp\d9f29ecafa8b7ae4579999459f953894.php:232]
+[ error ] [8]未定义变量: totalorderamount[C:\Users\frank\Desktop\estate-init\estate-init\runtime\temp\d9f29ecafa8b7ae4579999459f953894.php:241]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000838s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001771s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1660897240
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1660897240 [运行时间：0.028013s][吞吐率：35.70req/s] [内存消耗：2,600.43kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001251s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1660897240',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000171s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:40+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1660897240
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1660897240 [运行时间：0.028767s][吞吐率：34.76req/s] [内存消耗：2,599.52kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001299s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1660897240',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:41+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_general_data
+[ info ] localhost/public/admin.php/dashboard/get_general_data [运行时间：0.057466s][吞吐率：17.40req/s] [内存消耗：3,518.59kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001183s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_general_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_general_data[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003863s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space_use` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space_use` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_member` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001'  AND `owner_type` = 3 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_vehicle` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_vehicle` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_pet` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_pet` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 0 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_general_data' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897241) [ RunTime:0.001966s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:41+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_expenses
+[ info ] localhost/public/admin.php/dashboard/get_expenses [运行时间：0.046584s][吞吐率：21.47req/s] [内存消耗：3,415.70kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001842s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_expenses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000249s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_expenses[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003380s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义数组下标: 0[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ error ] [8]未定义数组下标: 1[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] select m.mon,ifnull(total,0) as total,ifnull(paid,0) as paid from ( select concat(date_format(last_day(now() - interval 12 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 11 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 10 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 9 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 8 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 7 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 6 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 5 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 4 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 3 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 2 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 1 month),'%Y-%m'),'') as mon ) m left join (select sum(amount_total) as total,sum(amount_paid) as paid,from_unixtime(create_time,'%Y-%m') as create_time from es_expenses where community_code='CM2017110100001' group by from_unixtime(create_time,'%Y-%m')) e on (m.mon=e.create_time) [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_expenses' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897241) [ RunTime:0.001688s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:41+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_activity
+[ info ] localhost/public/admin.php/dashboard/get_activity [运行时间：0.062298s][吞吐率：16.05req/s] [内存消耗：3,776.68kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001308s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000278s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_activity[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\activity.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'activity',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003600s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_activity` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`create_time` FROM `es_activity` WHERE  `status` = 1  AND `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_activity' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897241) [ RunTime:0.001775s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:41+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_repair
+[ info ] localhost/public/admin.php/dashboard/get_repair [运行时间：0.049738s][吞吐率：20.11req/s] [内存消耗：3,849.69kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001491s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_repair',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000243s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_repair[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\repair.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'repair',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003754s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT * FROM `es_repair` WHERE  `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_repair' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897241) [ RunTime:0.001905s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:44+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_general_data
+[ info ] localhost/public/admin.php/dashboard/get_general_data [运行时间：0.078655s][吞吐率：12.71req/s] [内存消耗：3,518.59kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001269s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_general_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100002',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_general_data[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003828s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022825s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100002' LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space` WHERE  `community_code` = 'CM2017110100002' LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space_use` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space_use` WHERE  `community_code` = 'CM2017110100002' LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_member` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100002' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100002'  AND `owner_type` = 3 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100002' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_vehicle` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_vehicle` WHERE  `member_id` IN (2,3) LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100002' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_pet` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_pet` WHERE  `member_id` IN (2,3) LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100002'  AND `status` = 0 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100002'  AND `status` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100002\"}' , '/public/admin.php/dashboard/get_general_data' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897244) [ RunTime:0.002130s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:44+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_expenses
+[ info ] localhost/public/admin.php/dashboard/get_expenses [运行时间：0.064882s][吞吐率：15.41req/s] [内存消耗：3,415.70kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001203s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_expenses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100002',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000227s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_expenses[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003757s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义数组下标: 0[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ error ] [8]未定义数组下标: 1[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023128s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100002' LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] select m.mon,ifnull(total,0) as total,ifnull(paid,0) as paid from ( select concat(date_format(last_day(now() - interval 12 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 11 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 10 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 9 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 8 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 7 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 6 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 5 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 4 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 3 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 2 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 1 month),'%Y-%m'),'') as mon ) m left join (select sum(amount_total) as total,sum(amount_paid) as paid,from_unixtime(create_time,'%Y-%m') as create_time from es_expenses where community_code='CM2017110100002' group by from_unixtime(create_time,'%Y-%m')) e on (m.mon=e.create_time) [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100002\"}' , '/public/admin.php/dashboard/get_expenses' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897244) [ RunTime:0.002082s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:44+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_activity
+[ info ] localhost/public/admin.php/dashboard/get_activity [运行时间：0.065107s][吞吐率：15.36req/s] [内存消耗：3,427.94kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001169s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100002',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000400s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_activity[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\activity.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'activity',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004605s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018426s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_activity` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`create_time` FROM `es_activity` WHERE  `status` = 1  AND `community_code` = 'CM2017110100002' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100002\"}' , '/public/admin.php/dashboard/get_activity' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897244) [ RunTime:0.002798s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:44+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_repair
+[ info ] localhost/public/admin.php/dashboard/get_repair [运行时间：0.050505s][吞吐率：19.80req/s] [内存消耗：3,573.15kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001172s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_repair',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100002',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000277s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_repair[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\repair.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'repair',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004126s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `es_repair` WHERE  `community_code` = 'CM2017110100002' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_member` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `es_member` WHERE  `id` IN (1) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100002\"}' , '/public/admin.php/dashboard/get_repair' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897244) [ RunTime:0.002390s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:45+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_general_data
+[ info ] localhost/public/admin.php/dashboard/get_general_data [运行时间：0.086481s][吞吐率：11.56req/s] [内存消耗：3,518.59kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001475s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_general_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000265s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_general_data[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005693s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023524s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space_use` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space_use` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_member` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001'  AND `owner_type` = 3 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_vehicle` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_vehicle` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_pet` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_pet` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 0 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 1 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_general_data' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897245) [ RunTime:0.004026s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:45+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_expenses
+[ info ] localhost/public/admin.php/dashboard/get_expenses [运行时间：0.044793s][吞吐率：22.32req/s] [内存消耗：3,415.70kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001207s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_expenses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_expenses[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003473s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义数组下标: 0[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ error ] [8]未定义数组下标: 1[C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php:205]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select m.mon,ifnull(total,0) as total,ifnull(paid,0) as paid from ( select concat(date_format(last_day(now() - interval 12 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 11 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 10 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 9 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 8 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 7 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 6 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 5 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 4 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 3 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 2 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 1 month),'%Y-%m'),'') as mon ) m left join (select sum(amount_total) as total,sum(amount_paid) as paid,from_unixtime(create_time,'%Y-%m') as create_time from es_expenses where community_code='CM2017110100001' group by from_unixtime(create_time,'%Y-%m')) e on (m.mon=e.create_time) [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_expenses' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897245) [ RunTime:0.001805s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:45+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_activity
+[ info ] localhost/public/admin.php/dashboard/get_activity [运行时间：0.044958s][吞吐率：22.24req/s] [内存消耗：3,426.48kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001200s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_activity[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\activity.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'activity',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004495s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_activity` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`create_time` FROM `es_activity` WHERE  `status` = 1  AND `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001362s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_activity' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897245) [ RunTime:0.002224s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:45+08:00 ] 0.0.0.0 ::1 POST /public/admin.php/dashboard/get_repair
+[ info ] localhost/public/admin.php/dashboard/get_repair [运行时间：0.066951s][吞吐率：14.94req/s] [内存消耗：3,563.03kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001330s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_repair',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'text/html, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_repair[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\dashboard\repair.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'repair',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004642s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018119s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `es_repair` WHERE  `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/public/admin.php/dashboard/get_repair' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36' , '0.0.0.0' , 1660897245) [ RunTime:0.002403s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:51+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/community/index?addtabs=1
+[ info ] localhost/public/admin.php/community/index?addtabs=1 [运行时间：0.089084s][吞吐率：11.23req/s] [内存消耗：3,919.96kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001206s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'community.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/public/admin.php/community/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/community/index.php
+[ info ] [ RUN ] app\admin\controller\community\Index->index[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\community\Index.php ]
+[ info ] [ VIEW ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\view\community\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admins',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019740s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `id`,concat(nickname,' [',`username`,']') as name FROM `es_admin` WHERE  `status` = 'normal' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'community/index' LIMIT 1 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2022-08-19T16:20:51+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=community.index&v=1660897251
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=community.index&v=1660897251 [运行时间：0.025885s][吞吐率：38.63req/s] [内存消耗：2,596.92kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001199s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/public/admin.php/community/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'community.index',
+  'v' => '1660897251',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/community/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000163s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:51+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/ajax/lang?callback=define&controllername=community.index&v=1660897251
+[ info ] localhost/public/admin.php/ajax/lang?callback=define&controllername=community.index&v=1660897251 [运行时间：0.025112s][吞吐率：39.82req/s] [内存消耗：2,595.96kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001169s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'community.index',
+  'v' => '1660897251',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000232s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/community/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-19T16:20:51+08:00 ] 0.0.0.0 ::1 GET /public/admin.php/community/index?sort=create_time&order=desc&offset=0&limit=10&_=1660897251162
+[ info ] localhost/public/admin.php/community/index?sort=create_time&order=desc&offset=0&limit=10&_=1660897251162 [运行时间：0.049511s][吞吐率：20.20req/s] [内存消耗：3,592.01kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001736s ]
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'community.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost/public/admin.php/community/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8ic88q4d91o05ds57mtklognq5; keeplogin=1%7C86400%7C1660983035%7C7802972a0b23531a4deb99d3f2aa033e',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'create_time',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1660897251162',
+)
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\frank\Desktop\estate-init\estate-init\public/../application/admin/lang/zh-cn/community/index.php
+[ info ] [ RUN ] app\admin\controller\community\Index->index[ C:\Users\frank\Desktop\estate-init\estate-init\application\admin\controller\community\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:372]
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[C:\Users\frank\Desktop\estate-init\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:dbname=db_estate;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SELECT `id`,concat(nickname,' [',`username`,']') as name FROM `es_admin` WHERE  `status` = 'normal' [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_community` WHERE  (  `code` IN ('CM2017110100001','CM2017110100002') ) LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  (  `code` IN ('CM2017110100001','CM2017110100002') ) ORDER BY `create_time`  desc LIMIT 0,10 [ RunTime:0.000266s ]
