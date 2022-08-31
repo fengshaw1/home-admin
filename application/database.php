@@ -14,7 +14,7 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '39.105.161.170',
     // 数据库名
     'database'        => 'db_estate',
     // 用户名
@@ -22,7 +22,7 @@ return [
     // 密码
     'password'        => 'root',
     // 端口
-    'hostport'        => '3333',
+    'hostport'        => '9001',
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
